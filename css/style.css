@@ -1,0 +1,63 @@
+#innerContainer{
+    width: 100%;
+    background-color: #a90f00;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+}
+
+.userCardContainer{
+    background-color: antiquewhite;
+    width: 100%;
+    min-width: 120px;
+    max-width: 300px;
+    border: 2px solid green;
+    margin: 0 auto;
+    font-family: 'Satisfy', Hardwritin;
+}
+
+.userCardContainer > *{
+    margin: 0 auto;
+}
+
+.userCardContainer > h3 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: darkblue;
+    padding: inherit;
+}
+.userCardContainer > h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #002a4f;
+    padding: inherit;
+}
+.userCardContainer > hr{
+    width: 70px;
+    margin-top: 25px;
+    border:1px solid gray;
+    opacity: 0.3;
+    margin-bottom: 10px;
+}
+
+.userAvatar{
+    width: 70px;
+    height: 70px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    background-image: url("https://img.tsn.ua/cached/1518092914/tsn-3122bdbfc8d6fcfa75d8528e9b9cd61a/thumbs/315x210/b4/b1/ada811fe61784362abc9a989cbceb1b4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.iconContainer{
+    text-align: center;
+}
